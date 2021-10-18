@@ -1,7 +1,12 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
 import joblib
+import os
+import logging
+
+plt.style.use("fivethirtyeight")
 
 
 def prepare_data(df):
